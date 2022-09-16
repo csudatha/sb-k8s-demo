@@ -11,7 +11,7 @@ public class SpringbootK8sDemoApplication {
 
 	@GetMapping("/message")
 	public String displayMessage(){
-		return "Congratulation. Fully Integrated. Hello World";
+		return "Something new today. Congratulation. Fully Integrated. Hello World";
 	}
 
 	public static void main(String[] args) {
