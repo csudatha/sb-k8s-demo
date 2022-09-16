@@ -11,7 +11,7 @@ public class SpringbootK8sDemoApplication {
 
 	@GetMapping("/message")
 	public String displayMessage(){
-		return "Congratulation. Your first successfull K8S app is running. Chandra Udatha !! \n triggered a auto build 13";
+		return "Congratulation. Fully Integrated. Your first successfull K8S app is running. Chandra Udatha !! \n triggered a auto build 13";
 	}
 
 	public static void main(String[] args) {
